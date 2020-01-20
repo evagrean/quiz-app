@@ -1,3 +1,4 @@
+// This is the root component of the app
 import { Component } from '@angular/core';
 import { QuestionsService } from './questions.service';
 import { Quiz, Answers, Choice } from './quiz.model';

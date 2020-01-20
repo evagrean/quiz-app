@@ -1,3 +1,5 @@
+// This is our own Component
+
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 // importing model for this component: Question form

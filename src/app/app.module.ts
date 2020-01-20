@@ -4,10 +4,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import {QuestionFormComponent} from './question-form/question-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    QuestionFormComponent
   ],
   imports: [
     BrowserModule,
