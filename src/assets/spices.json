@@ -1,0 +1,107 @@
+[
+  {
+    "label": "Which is still one of the most expensive spices in the world?",
+    "choices": [
+      {
+        "value": "Vanilla",
+        "correct": true
+      },
+      {
+        "value": "Cinnamon",
+        "correct": false
+      },
+      {
+        "value": "Cardamom",
+        "correct": false
+      },
+      {
+        "value": "Pepper",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is the hottest known chili pepper in the world called?",
+    "choices": [
+      {
+        "value": "Trinidad moruga scorpion",
+        "correct": false
+      },
+      {
+        "value": "Carolina Reaper",
+        "correct": false
+      },
+      {
+        "value": "Jalapeño",
+        "correct": false
+      },
+      {
+        "value": "Dragon’s Breath",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "Which spice contains hallucinogenic myristicin?",
+    "choices": [
+      {
+        "value": "Parsley",
+        "correct": true
+      },
+      {
+        "value": "Caraway seed",
+        "correct": false
+      },
+      {
+        "value": "Chives",
+        "correct": false
+      },
+      {
+        "value": "Garlic",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Where do you get cinnamon from?",
+    "choices": [
+      {
+        "value": "From cinnamon flowers",
+        "correct": false
+      },
+      {
+        "value": "From cinnamon branches",
+        "correct": true
+      },
+      {
+        "value": "From cinnamon roots",
+        "correct": false
+      },
+      {
+        "value": "From cinnamon seeds",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which Cape do you pass on the maritime spice route?",
+    "choices": [
+      {
+        "value": "Cape of Good Hope",
+        "correct": true
+      },
+      {
+        "value": "Cape Horn",
+        "correct": false
+      },
+      {
+        "value": "Cape Verde",
+        "correct": false
+      },
+      {
+        "value": "Cape Comorin",
+        "correct": false
+      }
+    ]
+  }
+]
