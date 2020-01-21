@@ -10,7 +10,7 @@ export class Question {
 
 // represents data to load
 export class Quiz {
-    constructor(public label: string, public questions: Question[]) {}
+    constructor(public label: string, public name: string, public description: string, public fileName: string) {}
 }
 
 // represents data app will collect each time user answers question
