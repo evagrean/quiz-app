@@ -8,7 +8,7 @@ import { Quiz } from '../quiz.model';
   styleUrls: ['./welcome.component.scss']
 })
 export class WelcomeComponent {
-  quiz: Quiz[];
+  private quiz: Quiz[];
 
   constructor(private questionsService: QuestionsService) { 
     this.questionsService.getQuizzes()

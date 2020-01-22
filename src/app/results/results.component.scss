@@ -1,0 +1,29 @@
+$false-color: #ff8080;
+$correct-color: #66b266;
+
+.results-container {
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.answer {
+    font-size: 30px;
+    margin-bottom: 10px;
+    background-color: $false-color;
+    padding: 5px;
+}
+
+.correct {
+    background-color:$correct-color;
+    padding: 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+button {
+    font-size: 20px;
+  }

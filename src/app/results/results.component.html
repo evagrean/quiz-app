@@ -1,8 +1,14 @@
 <div class="results">
-    <h2>Your results:</h2>
+  <h1 class="md-display-1" align="center">Your results:</h1>
+  <mat-card class="results-container">
     <div class="answer" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
-        {{a.value}}: Your answer is {{a.correct}}.
+      {{a.value}} ----- {{a.correct}}
     </div>
+  </mat-card>
 </div>
-<a routerLink="/welcome" class="btn btn-primary">
-    Choose another quiz</a>
+<div class="center">
+  <a routerLink="/welcome">
+    <button mat-raised-button color="primary" class="btn btn-primary">Choose another quiz</button>
+  </a>
+
+</div>
