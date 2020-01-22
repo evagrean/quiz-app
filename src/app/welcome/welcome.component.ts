@@ -10,13 +10,13 @@ import { Quiz } from '../quiz.model';
 export class WelcomeComponent {
   private quiz: Quiz[];
 
-  constructor(private questionsService: QuestionsService) { 
+  constructor(private questionsService: QuestionsService) {
     this.questionsService.getQuizzes()
-    .subscribe(quiz => {
-      this.quiz = quiz;
-    });
+      .subscribe(quiz => {
+        this.quiz = quiz;
+      });
   }
 
- 
+
 
 }

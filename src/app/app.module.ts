@@ -2,11 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { RouterModule, Routes} from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { MatGridListModule } from '@angular/material';
 import { MatButtonModule } from '@angular/material';
 import { MatCardModule } from '@angular/material';
-import { MatCheckboxModule } from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { QuestionFormComponent } from './question-form/question-form.component';
@@ -16,9 +16,9 @@ import { QuestionsComponent } from './questions/questions.component';
 
 
 const appRoutes: Routes = [
-  {path: 'welcome', component: WelcomeComponent},
-  {path: ':quizId', component: QuestionsComponent},
-  {path: '', redirectTo: 'welcome', pathMatch: 'prefix'}
+  { path: 'welcome', component: WelcomeComponent },
+  { path: ':quizId', component: QuestionsComponent },
+  { path: '', redirectTo: 'welcome', pathMatch: 'prefix' }
 ];
 
 @NgModule({
@@ -38,7 +38,10 @@ const appRoutes: Routes = [
     MatGridListModule,
     MatButtonModule,
     MatCardModule,
-    MatCheckboxModule
+    FlexLayoutModule
+
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -5,46 +5,40 @@
   <mat-card-subtitle align="center">
     <h1 class="md-display-2">Choose your favourite quiz!</h1>
   </mat-card-subtitle>
-  <mat-grid-list cols="4" gutterSize="10px">
-    <mat-grid-tile>
-      <mat-card class="quiz-card">
-        <a routerLink="/maths" class="img-link">
-          <img mat-card-image src="assets/img/maths.png" alt="picture of math elements">
-        </a>
-        <div class="center">
-          <a routerLink="/maths" color="primary" class="btn quiz-link-btn">Maths</a>
-        </div>
-      </mat-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <mat-card class="quiz-card">
-        <a routerLink="/egypt" class="img-link">
-          <img mat-card-image src="assets/img/egyptians.png" alt="picture of egyptians">
-        </a>
-        <div class="center">
-          <a routerLink="/egypt" color="primary" class="btn quiz-link-btn">Egyptians</a>
-        </div>
-      </mat-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <mat-card class="quiz-card">
-        <a routerLink="/islands" class="img-link">
-          <img mat-card-image src="assets/img/island.png" alt="picture of islands">
-        </a>
-        <div class="center">
-          <a routerLink="/islands" color="primary" class="btn quiz-link-btn">Islands</a>
-        </div>
-      </mat-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <mat-card class="quiz-card">
-        <a routerLink="/spices" class="img-link">
-          <img mat-card-image src="assets/img/spices.png" alt="picture of spices">
-        </a>
-        <div class="center">
-          <a routerLink="/spices" color="primary" class="btn quiz-link-btn">Spices</a>
-        </div>
-      </mat-card>
-    </mat-grid-tile>
-  </mat-grid-list>
+  <div class="flex-container" fxLayout="row" fxLayout.xs="column">
+    <mat-card class="quiz-card">
+      <a routerLink="/maths" class="img-link">
+        <img mat-card-image src="assets/images/maths.png" alt="picture of math elements">
+      </a>
+      <div class="center">
+        <a routerLink="/maths" color="primary" class="btn quiz-link-btn">Maths</a>
+      </div>
+    </mat-card>
+    <mat-card class="quiz-card">
+      <a routerLink="/egypt" class="img-link">
+        <img mat-card-image src="assets/images/egyptians.png" alt="picture of egyptians">
+      </a>
+      <div class="center">
+        <a routerLink="/egypt" color="primary" class="btn quiz-link-btn">Egyptians</a>
+      </div>
+    </mat-card>
+    <mat-card class="quiz-card">
+      <a routerLink="/islands" class="img-link">
+        <img mat-card-image src="assets/images/island.png" alt="picture of islands">
+      </a>
+      <div class="center">
+        <a routerLink="/islands" color="primary" class="btn quiz-link-btn">Islands</a>
+      </div>
+    </mat-card>
+    <mat-card class="quiz-card">
+      <a routerLink="/spices" class="img-link">
+        <img mat-card-image src="assets/images/spices.png" alt="picture of spices">
+      </a>
+      <div class="center">
+        <a routerLink="/spices" color="primary" class="btn quiz-link-btn">Spices</a>
+      </div>
+    </mat-card>
+
+  </div>
+
 </mat-card>
