@@ -1,0 +1,107 @@
+[
+  {
+    "label": "What is 2 + 3?",
+    "choices": [
+      {
+        "value": "5",
+        "correct": true
+      },
+      {
+        "value": "15",
+        "correct": false
+      },
+      {
+        "value": "3",
+        "correct": false
+      },
+      {
+        "value": "pi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is 3 - 9?",
+    "choices": [
+      {
+        "value": "3",
+        "correct": false
+      },
+      {
+        "value": "-6",
+        "correct": true
+      },
+      {
+        "value": "Bonjour",
+        "correct": false
+      },
+      {
+        "value": "pi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is 3 + 2 x 5",
+    "choices": [
+      {
+        "value": "15",
+        "correct": false
+      },
+      {
+        "value": "30",
+        "correct": false
+      },
+      {
+        "value": "25",
+        "correct": false
+      },
+      {
+        "value": "13",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "How many meters is one kilometer?",
+    "choices": [
+      {
+        "value": "10000",
+        "correct": false
+      },
+      {
+        "value": "10",
+        "correct": false
+      },
+      {
+        "value": "1000",
+        "correct": true
+      },
+      {
+        "value": "100",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is the checksum of 362?",
+    "choices": [
+      {
+        "value": "10",
+        "correct": false
+      },
+      {
+        "value": "11",
+        "correct": true
+      },
+      {
+        "value": "12",
+        "correct": false
+      },
+      {
+        "value": "13",
+        "correct": false
+      }
+    ]
+  }
+]

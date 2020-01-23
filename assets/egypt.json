@@ -1,0 +1,107 @@
+[
+  {
+    "label": "In canopic jars you filled...",
+    "choices": [
+      {
+        "value": "Human organs",
+        "correct": true
+      },
+      {
+        "value": "Nile water to carry it home",
+        "correct": false
+      },
+      {
+        "value": "Dry grasses and leaves to feed goats",
+        "correct": false
+      },
+      {
+        "value": "Urine and excrement, because they were chamber pots",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "The most popular drink of the Egyptians was ...",
+    "choices": [
+      {
+        "value": "Lemonade from lotus flower extract",
+        "correct": false
+      },
+      {
+        "value": "Pomegranate juice",
+        "correct": false
+      },
+      {
+        "value": "Apple juice",
+        "correct": false
+      },
+      {
+        "value": "Beer",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "Which couple ended up as tragically as Romeo and Juliet?",
+    "choices": [
+      {
+        "value": "Marcus Antonius and Cleopatra",
+        "correct": true
+      },
+      {
+        "value": "Akhenaten and Nefertiti",
+        "correct": false
+      },
+      {
+        "value": "Ramses II and his revered Nefertari",
+        "correct": false
+      },
+      {
+        "value": "Osiris and Isis",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "The goddess of love and motherhood, Hathor, was portrayed as ...",
+    "choices": [
+      {
+        "value": "The sun",
+        "correct": false
+      },
+      {
+        "value": "A cow",
+        "correct": true
+      },
+      {
+        "value": "A woman with five breasts, according to the lucky number of the Egyptians",
+        "correct": false
+      },
+      {
+        "value": "A breeding bird",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "In ancient times, a Nilometer was used to determine ...",
+    "choices": [
+      {
+        "value": "The speed of the Nile",
+        "correct": false
+      },
+      {
+        "value": "The width of the Nile",
+        "correct": false
+      },
+      {
+        "value": "The water level of the Nile",
+        "correct": true
+      },
+      {
+        "value": "The temperature of the water",
+        "correct": false
+      }
+    ]
+  }
+]

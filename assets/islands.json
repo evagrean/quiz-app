@@ -1,0 +1,107 @@
+[
+  {
+    "label": "Which country does the Azores archipelago belong to?",
+    "choices": [
+      {
+        "value": "Spain",
+        "correct": false
+      },
+      {
+        "value": "Portugal",
+        "correct": true
+      },
+      {
+        "value": "France",
+        "correct": false
+      },
+      {
+        "value": "USA",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which country does Madeira Island belong to?",
+    "choices": [
+      {
+        "value": "Greece",
+        "correct": false
+      },
+      {
+        "value": "Spain",
+        "correct": false
+      },
+      {
+        "value": "Portugal",
+        "correct": true
+      },
+      {
+        "value": "Turkey",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which country does the Galapagos Islands belong to?",
+    "choices": [
+      {
+        "value": "Ecuador",
+        "correct": true
+      },
+      {
+        "value": "Peru",
+        "correct": false
+      },
+      {
+        "value": "Colombia",
+        "correct": false
+      },
+      {
+        "value": "Argentina",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which country does the island of Reunion belong to?",
+    "choices": [
+      {
+        "value": "France & Great Britain",
+        "correct": false
+      },
+      {
+        "value": "France & Spain",
+        "correct": false
+      },
+      {
+        "value": "Netherlands & Great Britain",
+        "correct": false
+      },
+      {
+        "value": "France & Netherlands",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "Which countries does the Caribbean island of St. Martin belong to?",
+    "choices": [
+      {
+        "value": "France",
+        "correct": true
+      },
+      {
+        "value": "Madagascar",
+        "correct": false
+      },
+      {
+        "value": "Canada",
+        "correct": false
+      },
+      {
+        "value": "USA",
+        "correct": false
+      }
+    ]
+  }
+]
