@@ -18,7 +18,7 @@ export class QuestionFormComponent implements OnInit {
   @Input() question: Question;
   @Output() onChoiceMade = new EventEmitter<string>();
 
-  private form: FormGroup;
+  form: FormGroup;
   // method called, once component has received all inputs
   // initialized form controller will link model and view
   // also wire up the form controller with onChange method
@@ -26,7 +26,7 @@ export class QuestionFormComponent implements OnInit {
     this.form = new FormGroup({
       choice: new FormControl()
     });
-    
+
     this.form.valueChanges.subscribe(this.onChange);
   }
 
