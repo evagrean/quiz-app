@@ -3,19 +3,31 @@ $correct-color: #66b266;
 
 .results-container {
     max-width: 800px;
-    margin: 10px auto;
+    margin: 8px auto;
 }
 
 .answer {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 10px;
     background-color: $false-color;
-    padding: 5px;
+    padding: 5px 8px;
 }
 
 .correct {
     background-color:$correct-color;
-    padding: 5px;
+    padding: 8px;
+}
+
+.question-repeat {
+  font-weight: bold;
+}
+
+.your-answer {
+  font-style: italic;
+}
+
+.wrong-right {
+  font-weight: bold;
 }
 
 .center {
