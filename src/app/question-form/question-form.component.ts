@@ -1,24 +1,35 @@
 // This is our own Component
-
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
+import { FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 // importing model for this component: Question form
 import { Question } from '../quiz.model';
+import { MatCardModule} from '@angular/material/card';
+import { CommonModule } from '@angular/common';
+
+
 
 // decorator used to tell Angular that class below is a component
 // selector property defines custom HTML element this component will render into
 @Component({
   selector: 'app-question-form',
+  standalone: true,
+  imports: [    
+    FormsModule,
+    ReactiveFormsModule,
+    MatCardModule,    
+    CommonModule,    
+    
+  ],
   templateUrl: './question-form.component.html',
   styleUrls: ['./question-form.component.scss']
 })
 export class QuestionFormComponent implements OnInit {
   // decorators to define input (= question) and output (= when choice is made) 
   // like props in React
-  @Input() question: Question;
+  @Input() question?: Question;
   @Output() onChoiceMade = new EventEmitter<string>();
 
-  form: FormGroup;
+  form?: FormGroup;
   // method called, once component has received all inputs
   // initialized form controller will link model and view
   // also wire up the form controller with onChange method
@@ -31,7 +42,7 @@ export class QuestionFormComponent implements OnInit {
   }
 
   onChange = () => {
-    this.onChoiceMade.emit(this.form.value.choice);
+    this.onChoiceMade.emit(this.form?.value.choice);
   }
 
 }

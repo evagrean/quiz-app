@@ -1,16 +1,5 @@
-<div class="quiz" *ngIf="quiz">
-
-  <div class="questions" *ngIf="!showResults">
-    <app-question-form
-      [question]="quiz.questions[currentQuestionIndex]"
-      (onChoiceMade)="updateChoice($event)">
-    </app-question-form>
-
-    <button
-      class="btn btn-success"
-      (click)="nextOrViewResults()"
-      [disabled]="!answers.values[currentQuestionIndex]"
-    >{{currentQuestionIndex === quiz.questions.length - 1 ? 'View results' : 'Next'}}
-  </button>
-  </div>
-</div>
+<!-- <app-header></app-header> -->
+<main>
+  <router-outlet></router-outlet>
+</main>
+<!-- <app-footer></app-footer> -->

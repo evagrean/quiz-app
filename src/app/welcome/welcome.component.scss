@@ -8,6 +8,9 @@
     display: flex;
     justify-content: center;
 }
+.mat-card-subtitle.mat-mdc-card-subtitle h1 {
+  color: rgba(0, 0, 0, .54);
+}
 
 .quiz-link-btn {   
     font-size: 30px;

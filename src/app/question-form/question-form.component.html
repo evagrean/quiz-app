@@ -1,6 +1,5 @@
-<div class="quiz" *ngIf="question">
-
-  <h1 align="center" class="md-display-1">{{question.label}}</h1>
+<div class="quiz" *ngIf="question && form">
+  <h1 class="md-display-1">{{question.label}}</h1>
   <mat-card class="question-form-container">
     <mat-card-content>
       <form [formGroup]="form">

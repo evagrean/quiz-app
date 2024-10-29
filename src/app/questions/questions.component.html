@@ -5,7 +5,7 @@
     <div *ngIf="!showResults" class="questions">
       <app-question-form [question]="questions[currentQuestionIndex]" (onChoiceMade)="updateChoice($event)">
       </app-question-form>
-      <mat-card-actions align="center">
+      <mat-card-actions class="center">
         <button mat-raised-button class="btn btn-success" color="primary" (click)="nextOrViewResults()"
           [disabled]="!answers.values[currentQuestionIndex]">
           {{currentQuestionIndex === questions.length -1 ? 'View results' : 'Next'}}
